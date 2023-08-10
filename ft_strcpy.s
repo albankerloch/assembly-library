@@ -1,6 +1,18 @@
-			global   _ft_strcpy
-	
+/**
+ * @file ft_strcpy.s
+ * @author alban kerloc'h
+ * @date 01/02/2020
+ * @version 1.0
+ */
+ 			global   _ft_strcpy	
     		section  .text
+
+/**
+* This function copies the string pointed by source (including the null character) to the destination
+* @param char* destination
+* @param const char* source
+* @return the copied string
+*/
 _ft_strcpy:
 			push 	rdi
 			push 	rsi

@@ -1,17 +1,13 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: akerloc- <akerloc-@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/02/09 12:11:24 by akerloc-          #+#    #+#             */
-/*   Updated: 2020/02/09 15:55:45 by akerloc-         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/**
+ * @file main.c
+ * @author alban kerloc'h
+ * @date 01/02/2020
+ * @version 1.0
+ */
 
 #include "libasm.h"
 
+/** @brief Launching the test of the Assembly library strcpy functions */
 void	ft_check_strcpy(void)
 {
 	char *str;
@@ -32,6 +28,7 @@ void	ft_check_strcpy(void)
 	printf("%s\n\n", dest2);
 }
 
+/** @brief Launching the test of the Assembly library read functions */
 void	ft_check_read(void)
 {
 	int		fd;
@@ -49,6 +46,7 @@ void	ft_check_read(void)
 	printf("%s\n\n", buffer);
 }
 
+/** @brief Launching the test of the Assembly library strdup functions */
 void	ft_check_strdup(void)
 {
 	char	*str;
@@ -67,6 +65,7 @@ void	ft_check_strdup(void)
 	printf("%s\n", dest2);
 }
 
+/** @brief Launching the test of the Assembly library (6 functions) */
 int		main(void)
 {
 	printf("\nstrlen\n");

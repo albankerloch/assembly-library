@@ -19,6 +19,7 @@ make
 ```
 
 (make and nasm needed)
+(https://github.com/rfoos/doxygen used for doxygen documentation)
 
 ## Usage
 

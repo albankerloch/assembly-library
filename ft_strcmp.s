@@ -1,7 +1,19 @@
-			global   _ft_strcmp
-    		default  rel
-	
+/**
+ * @file ft_strcmp.s
+ * @author alban kerloc'h
+ * @date 01/02/2020
+ * @version 1.0
+ */
+ 			global   _ft_strcmp
+    		default  rel	
     		section  .text
+
+/**
+* This function compares two strings character by character.
+* @param const char* str1
+* @param const char* str2
+* @return if the strings are equal, the function returns 0
+*/
 _ft_strcmp:
 			push 	rdi
 			push	rsi

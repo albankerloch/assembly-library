@@ -1,7 +1,18 @@
-			global	_ft_strdup
-			extern	_malloc
-	
+/**
+ * @file ft_strdup.s
+ * @author alban kerloc'h
+ * @date 01/02/2020
+ * @version 1.0
+ */
+ 			global	_ft_strdup
+			extern	_malloc	
 			section	.text
+
+/**
+* This function duplicates a string into an allocated memory string
+* @param const char* source
+* @return a pointer to the duplicated null-terminated byte string
+*/
 _ft_strdup:
 			push	rdi
 			mov     r8, rdi
